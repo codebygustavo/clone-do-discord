@@ -1,10 +1,9 @@
 const AuthLayout = ({ childrean }: { childrean: React.ReactNode }) => {
     return (
-        <div className="bg-red-500 h-full">
+        <div className="h-full flex items-center justify-center">
             {childrean}
         </div>
     );
 }
 
-export default AuthLayo
-ut;
+export default AuthLayout;
