@@ -30,7 +30,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 npm install
 ```
 
-### Rpdar projeto
+### Rodar projeto
 ```bash
 npm run dev
 ```
