@@ -27,7 +27,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ### Instalar dependencias
 
 ```shell
-npm i
+npm install
 ```
 
 ### Rpdar projeto
