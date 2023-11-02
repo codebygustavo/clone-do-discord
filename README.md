@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![C](https://github.com/codebygustavo/discordClone/assets/116754904/2d9739b9-be7d-4684-b716-1a87cd9e2027)
 
+Bem-vindo a minha versão do projeto Full-Stack do Discord! Este projeto foi feito com o objetivo de aprender mais sobre desenvolvimento de aplicações web e entender o funcionamento de várias tecnologias. A seguir estão algumas das principais características e recursos que você encontrará neste projeto.
+
 ## Recursos
 
 - Mensagens em tempo real usando Socket.io
@@ -26,8 +28,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ### Instalar dependencias
 
-```shell
+```bash
 npm install
+```
+### Configuração Prisma
+
+Adicionando banco de dados MySQL
+
+```bash
+npx prisma generate
+
+```
+
+```bash
+npx prisma db push
+
 ```
 
 ### Rodar projeto
