@@ -1,9 +1,9 @@
 import { currentUser, redirectToSignIn } from "@clerk/nextjs";
 
-import { db } from "./db";
+import { db } from "@/lib/db";
 
 export const initialProfile = async () => {
-    const user = await currentUser()
+    const user = await currentUser();
 
     if (!user) {
         return redirectToSignIn();
@@ -16,7 +16,7 @@ export const initialProfile = async () => {
     });
 
     if (profile) {
-        return profile
+        return profile;
     }
 
     const newProfile = await db.profile.create({
@@ -28,5 +28,5 @@ export const initialProfile = async () => {
         }
     });
 
-    return newProfile
-}
+    return newProfile;
+};
