@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+#### em desenvolvimento!
+
 ## Full-Stack Discord Clone, feito com Next.js 13, React, Socket.io, Prisma, Tailwind e MySQL
 
 ![C](https://github.com/codebygustavo/discordClone/assets/116754904/2d9739b9-be7d-4684-b716-1a87cd9e2027)
